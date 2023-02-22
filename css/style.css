@@ -1,0 +1,31 @@
+/* importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600&family=Lobster+Two:wght@400;700&display=swap');
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+
+body {
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #FFFBFB;
+}
+
+h1, h2, h3 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: bold;
+}
+
+h2 {
+	color: #3F0D12;
+}
+
+a {
+	text-decoration: none;
+}
